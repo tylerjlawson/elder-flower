@@ -27,6 +27,7 @@
     "body-parser": "^1.19.0",
     "compression": "^1.7.4",
     "cors": "^2.8.5",
+    "daisyui": "^1.14.0",
     "del": "^6.0.0",
     "dotenv": "^10.0.0",
     "fs-extra": "^10.0.0",
@@ -53,7 +54,9 @@
     "postcss": "^8.3.6",
     "prettier": "^2.4.0",
     "prettier-plugin-svelte": "^2.4.0",
-    "rollup": "^2.56.3"
+    "rollup": "^2.56.3",
+    "stylelint-config-recommended": "^5.0.0",
+    "tailwindcss": "^2.2.15"
   },
   "files": [
     "index.js",

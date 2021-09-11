@@ -2,7 +2,10 @@
   export let templateHtml;
 </script>
 
-<style>
+<style global>
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
   :global(h1) {
     font-style: italic;
   }

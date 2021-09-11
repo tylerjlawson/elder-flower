@@ -85,7 +85,7 @@
   </div>
 {/if}
 
-<div class="banner">
+<div class="banner mb-12">
   <h1>Hello World: Welcome to Elder.js!</h1>
   <p>Woot! You've got Elder.js installed. This template is designed to show you the ropes of how things work.</p>
 
