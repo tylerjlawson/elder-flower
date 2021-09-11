@@ -12,8 +12,8 @@
 </script>
 
 <svelte:head>
-  <title>Sanctuary: Home</title>
-  <meta name="description" content="Sanctuary" />
+  <title>Elder Flower: Home</title>
+  <meta name="description" content="Elder Flower" />
   <link href="{settings.origin}/" rel="canonical" />
 </svelte:head>
 

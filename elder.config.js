@@ -1,6 +1,6 @@
 require('dotenv').config();
 module.exports = {
-  origin: 'https://example.com', // TODO: update this. The URL of your site's root, without a trailing slash
+  origin: 'https://tyler-lawson.com', // TODO: update this. The URL of your site's root, without a trailing slash
   lang: 'en',
   srcDir: 'src',
   distDir: 'public',
@@ -27,9 +27,7 @@ module.exports = {
       routes: ['blog'],
     },
     '@elderjs/plugin-browser-reload': {
-      // this reloads your browser when nodemon restarts your server.
-      port: 8080,
-      reload: false, // if you are having issues with reloading not working, change to true.
+      reload: false,
     },
     '@elderjs/plugin-seo-check': {
       display: ['errors', 'warnings'], // If the errors are too verbose remove 'warnings'
