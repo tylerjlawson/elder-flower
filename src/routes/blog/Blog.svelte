@@ -59,7 +59,9 @@
 </div>
 
 {#if html}
-  {@html html}
+  <article class="prose">
+    {@html html}
+  </article>
 {:else}
   <h1>Oops!! Markdown not found!</h1>
 {/if}

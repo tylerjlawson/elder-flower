@@ -1,4 +1,5 @@
 const { hookInterface, hookEntityDefinitions } = require('@elderjs/elderjs');
+const homeData = require('../../../assets/home.json');
 
 module.exports = {
   // the all function returns an array of all of the 'request' objects of a route. Since this is the homepage, there is only one.
@@ -11,6 +12,7 @@ module.exports = {
     // in our Svelte template.
     data.hookInterface = hookInterface;
     data.hookEntityDefinitions = hookEntityDefinitions;
-    return data;
+
+    return { ...data, ...homeData };
   },
 };

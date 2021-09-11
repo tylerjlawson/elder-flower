@@ -1,12 +1,7 @@
 <script>
   export let templateHtml;
+  import '../styles/tailwind-output.css';
 </script>
-
-<style global>
-  @tailwind base;
-  @tailwind components;
-  @tailwind utilities;
-</style>
 
 <div class="container mx-auto">
   {@html templateHtml}

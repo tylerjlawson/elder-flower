@@ -1,5 +1,4 @@
 {
-  "cSpell.words": ["systemjs"],
-  // "css.customData": [".vscode/css_custom_data.json"]
+  "cSpell.words": ["daisyui", "systemjs"],
   "svelte.plugin.css.enable": false
 }
