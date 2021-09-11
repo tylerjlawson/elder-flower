@@ -1,4 +1,7 @@
 {
   "cSpell.words": ["daisyui", "systemjs"],
-  "svelte.plugin.css.enable": false
+  "svelte.plugin.css.enable": false,
+  "tailwindCSS.includeLanguages": {
+    "svelte": "html"
+  }
 }

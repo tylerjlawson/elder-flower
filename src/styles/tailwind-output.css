@@ -1599,6 +1599,13 @@ html {
 	grid-auto-flow: row;
 	gap: .5rem;
 }
+.footer-center {
+	place-items: center;
+	text-align: center;
+}
+.footer-center>* {
+	place-items: center;
+}
 @media (min-width:48rem) {
 
 	.footer {
@@ -1901,14 +1908,18 @@ html {
 .min-h-screen {
 	min-height: 100vh;
 }
-.max-w-md {
-	max-width: 28rem;
+.min-w-full {
+	min-width: 100%;
 }
 .max-w-lg {
 	max-width: 32rem;
 }
 .transform {
 	transform: var(--tw-transform);
+}
+.bg-base-200 {
+	--tw-bg-opacity: 1;
+	background-color: hsla(var(--b2) / var(--tw-bg-opacity));
 }
 .text-center {
 	text-align: center;
